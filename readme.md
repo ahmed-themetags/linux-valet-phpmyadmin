@@ -1,9 +1,7 @@
-----------------------------------------------------------------------------------------------
-Linux Valet setup and mysql , phpmyadmin ,php , mysql , dependency
-----------------------------------------------------------------------------------------------
 
-## This Documentation's main purpose is to make easy a laravel developer's daily work.
-#####
+### This Documentation's main purpose is to make easy a laravel developer's daily life.
+####
+
 # Index
 
 > 1. Install Valet in fresh linux machine

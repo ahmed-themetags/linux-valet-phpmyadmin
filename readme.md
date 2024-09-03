@@ -22,7 +22,10 @@ Linux Valet setup and mysql , phpmyadmin ,php , mysql , dependency
 ####
 
 > 6. Valet command list
+####
 
+> 7. Add alias in linux machine to create a command short
+####
 
 --------------------------------
 vs code plugin 
@@ -112,10 +115,11 @@ Copy code-> and set in github
 ---------------------------
 Copy the SSH public key to your clipboard. ...
 ---------------------------
+```
 In the upper-right corner of any page on GitHub, click your profile photo, then click Settings.
 In the "Access" section of the sidebar, click SSH and GPG keys.
 Click New SSH key or Add SSH key.
-
+```
 
 
 ---------------------------
@@ -129,6 +133,8 @@ Install mysql client and server
 ---------------------------
 ```
 sudo apt-get install mysql-client
+```
+```
 sudo apt-get install mysql-server
 ```
 
@@ -158,7 +164,24 @@ flush previleges
 FLUSH PRIVILEGES;
 ```
 
+--------------------------------
+Create Alias for a command to make short
+--------------------------------
 
+Open bashrc file to add alias
+
+```
+nano ~/.bashrc
+```
+
+Add Alias like and finally save and restart the terminal to get changes.
+```
+alias pa='php artisan'
+alias pam='php artisan migrate'
+alias pads='php artisan db:seed'
+alias pakg='php artisan key:generate'
+alias paoc='php artisan optimize:clear'
+```
 
 
 

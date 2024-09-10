@@ -25,6 +25,9 @@
 > 7. Add alias in linux machine to create a command short
 ####
 
+> 8. Install vim, vim  plugin and vim shortcut
+####
+
 --------------------------------
 vs code plugin 
 --------------------------------
@@ -181,6 +184,38 @@ alias pakg='php artisan key:generate'
 alias paoc='php artisan optimize:clear'
 ```
 
+# Vim
+
+--------------------------------
+Install vim 
+--------------------------------
+#####
+```json
+sudo apt-get install vim
+```
+
+### Create .vimrc File to Install Plugin
+```json
+    vim ~/.vimrc
+```
+
+#### Add some plugin in .vimrc file
+
+```
+set number
+
+set relativenumber
+
+set tabstop=4
+
+set shiftwidth=4
+
+set autoindent
+
+set mouse=a
+
+set colorscheme slate (to change terminal color like state / delek etc)
+```
 
 
 

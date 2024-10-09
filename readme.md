@@ -237,39 +237,57 @@ Linux important command
 ---------------------------
 ```
 LS - Lists files and directories in the current directory.
-
+```
+```
 MV - Moves or renames files and directories.
-
+```
+```
 SSH - Connects to a remote machine using SSH protocol.
-
+```
+```
 CD - Changes the current directory.
-
+```
+```
 CAT - Concatenates and displays file content.
-
+```
+```
 SUDO - Executes a command with root/admin privileges.
-
+```
+```
 PWD - Prints the current working directory.
-
+```
+```
 GREP - Searches for a specified pattern in files.
-
+```
+```
 TOP - Displays system resource usage and running processes.
-
+```
+```
 MKDIR - Creates a new directory.
-
+```
+```
 FIND - Searches for files and directories.
-
+```
+```
 WGET - Downloads files from the web.
-
+```
+```
 RM - Removes files and directories.
-
+```
+```
 CHMOD - Changes the permissions of files and directories.
+```
 
+```
 TAR - Archives files and directories into a single file.
-
+```
+```
 CP - Copies files and directories.
-
+```
+```
 CHOWN - Changes the ownership of files.
-
+```
+```
 GZIP - Compresses files using the gzip algorithm.
 ```
 

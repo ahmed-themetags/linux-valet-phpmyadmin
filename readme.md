@@ -99,6 +99,8 @@ Valet restart
 Valet stop
 
 Valet start
+
+sudo service apache2 stop -- t stop apache2 in create conflict with valet
 ```
 
 
